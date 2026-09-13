@@ -48,3 +48,37 @@ http://localhost:5173
 ## Project Goal
 
 The goal of DevStack is to make technology selection simpler, faster, and more engaging for developers while showcasing strong front-end design and product thinking.
+
+
+
+
+
+
+
+
+#QUESTION ANSWERS#
+
+**Q1. What is JSX, and why is it used in React?**
+JSX lets us write HTML-like code directly inside JavaScript. It makes creating React components much easier and cleaner to read.
+
+**Q2. What is the difference between props and state?**
+Props are read-only data passed down from a parent component. State is internal data managed inside a component that can change and cause the component to re-render.
+
+**Q3. What does the useState hook do, and where did you use it in this project?**
+`useState` helps a component store and update its local data. I used it to hold the fetched items list and manage selected items in the cart/deck.
+
+**Q4. What does the useEffect hook do, and why did you need it to load the JSON data?**
+`useEffect` handles side effects like fetching data. I used it to load the JSON data once when the page loads, preventing infinite re-render loops.
+
+**Q5. Why does every item in a .map() list need a unique key prop?**
+Keys help React identify which list items changed, were added, or removed. This speeds up rendering by updating only the specific item instead of the entire list.
+
+**Q6. What is conditional rendering? Show one place you used it.**
+Conditional rendering means showing UI elements based on a condition (like true or false).
+
+*Example:* `{items.length === 0 && <p>No items added yet!</p>}`
+
+**Q7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?**
+
+* **Parent to Child:** Passed directly using props (e.g., `<Child data="{items}"/>`).
+* **Child to Parent:** The parent passes a function as a prop, and the child calls that function with data as an argument.
