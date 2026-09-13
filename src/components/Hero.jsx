@@ -1,5 +1,4 @@
 import bannerStack from '../../assets/banner-stack.png';
-
 export const Hero = () => {
   return (
     <section className="hero-section">
