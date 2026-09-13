@@ -10,6 +10,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'react'
   },
+  
   {
     id: 'vue',
     name: 'Vue.js',
@@ -21,6 +22,7 @@ export const technologiesData = [
     rating: '4.8',
     iconType: 'vue'
   },
+
   {
     id: 'svelte',
     name: 'Svelte',
@@ -32,6 +34,7 @@ export const technologiesData = [
     rating: '4.8',
     iconType: 'svelte'
   },
+
   {
     id: 'nextjs',
     name: 'Next.js',
@@ -43,6 +46,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'nextjs'
   },
+
   {
     id: 'nodejs',
     name: 'Node.js',
@@ -54,6 +58,7 @@ export const technologiesData = [
     rating: '4.8',
     iconType: 'nodejs'
   },
+
   {
     id: 'postgresql',
     name: 'PostgreSQL',
@@ -65,6 +70,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'postgresql'
   },
+
   {
     id: 'redis',
     name: 'Redis',
@@ -76,6 +82,7 @@ export const technologiesData = [
     rating: '4.8',
     iconType: 'redis'
   },
+
   {
     id: 'javascript',
     name: 'JavaScript',
@@ -87,6 +94,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'javascript'
   },
+
   {
     id: 'typescript',
     name: 'TypeScript',
@@ -98,6 +106,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'typescript'
   },
+
   {
     id: 'java',
     name: 'Java',
@@ -109,6 +118,7 @@ export const technologiesData = [
     rating: '4.6',
     iconType: 'java'
   },
+
   {
     id: 'tailwindcss',
     name: 'Tailwind CSS',
@@ -120,6 +130,7 @@ export const technologiesData = [
     rating: '4.9',
     iconType: 'tailwindcss'
   },
+
   {
     id: 'docker',
     name: 'Docker',
