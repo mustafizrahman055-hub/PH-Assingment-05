@@ -12,6 +12,7 @@ export const TechLogo = ({ type, size = 32, className = '' }) => {
     );
   }
 
+  
   switch (type) {
     case 'react':
       return (
